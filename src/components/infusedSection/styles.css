@@ -1,0 +1,49 @@
+.infusedMaindDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dinamicDivsCointainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 65%;
+}
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33.3%;
+    padding: 2%;
+}
+.colourDivsGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 12;
+    width: 100%;
+
+}
+.colorDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33.3%;
+    height: 47vw;
+    transition:  0.3s;
+    padding: 0% 2%;
+}
+.colorDiv:hover {
+    height: 12vw;
+}
+.infusedImg {
+    width: 35%;
+}
