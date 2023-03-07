@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .dinamicDivsCointainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     width: 65%;
 }
@@ -21,6 +21,9 @@
     width: 33.3%;
     padding: 2%;
 }
+.infusedImg {
+    width: 35.1%;
+}
 .colourDivsGroup {
     display: flex;
     flex-direction: row;
@@ -29,21 +32,51 @@
     position: absolute;
     z-index: 12;
     width: 100%;
-
+    height: 48vw;
+    top: -2.3%;
 }
 .colorDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 33.3%;
+    width: 100%;
     height: 47vw;
-    transition:  0.3s;
-    padding: 0% 2%;
+    transition:  0.8s;
+    padding: 0% 9%;
 }
-.colorDiv:hover {
+.colorDivContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    width: 100%;
+    height: 47vw;
+}
+.colorDivContainer:hover .colorDiv {
     height: 12vw;
+ }
+.colorDivTitle {
+    font-family: "A Bold";
+    color: white;
+    font-size: 11px;
+} 
+.colorDivTitle span{
+    font-family: "A Regular";
+    color: white;
+} 
+.infusedP {
+    font-family: "A Regular";
+    color: black;
+    font-size: 9px;
 }
-.infusedImg {
-    width: 35%;
+.infusedP span {
+    font-family: "A Bold";
+}
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33vw;
 }

@@ -12,21 +12,48 @@ import Grid4 from "../images/desktop/index/homeGrid-4.png"
 import Grid5 from "../images/desktop/index/homeGrid-5.png"
 import Grid6 from "../images/desktop/index/homeGrid-6.png"
 import Infused from '../components/infusedSection'
+import MailW from "../images/desktop/index/mail-w.png"
+import IgW from "../images/desktop/index/instagram-w.png"
+import FacebookW from "../images/desktop/index/facbook-w.png"
+import Aregular from "../static/fonts/AvenirNextLTPro-Regular.otf"
+import Acondensed from "../static/fonts/Avenir Next Condensed.ttf.ttf"
+import Flavors from "../components/flavorOptions"
 
 const Index = () => {
+  const regular = Aregular;
+  const Condensed = Acondensed;
+
   return (
     <Layout>
       <div className="MainDivDesk">
         <div className="homeFristSectionDesk"></div>
-        <div className="homeSecondSectionDesk"></div>
-        <div className="homeThirdSectionDesk"></div>
+        <div className="homeSecondSectionDesk">
+          <div className='flavorsContainer'>
+            <h2 className='tempting'>TEMPTING <span>infused</span> FRUIT <span>flavours with tequila</span> FOR THE BOLD</h2>
+            <Flavors>
+              <p className='flavorName' style={{color:"#FECD41"}}>LEMON</p>
+              <p className='flavorName' style={{color:"#28C67D", marginLeft:"8%"}}>SPICY MANGO</p>
+              <p className='flavorName' style={{color:"#01D9FE", marginLeft:"3%"}}>WATERMELON MINT</p>
+              <p className='flavorName' style={{color:"#C78548"}}>TAMARIND</p>
+            </Flavors>
+          </div>
+        </div>
+        <div className="homeThirdSectionDesk">
+          <div className='flavorsCoinatiner2'>
+              <Flavors>
+                <p className='flavorName' style={{color:"#00DFDD"}}>BLANCO</p>
+                <p className='flavorName' style={{color:"#409FCF"}}>REPOSADO</p>
+                <p className='flavorName' style={{color:"#ECA95A"}}>AÑEJO</p>
+              </Flavors>
+          </div>
+        </div>
         <div className="homeFourthsectionDesk">
           <div className="fourthSectionContainer">
             <div className="fourthSectionLeftDiv">
-              <h2>Find out all the news in our social networks</h2>
-              <RedesCard image={InstagramV} username={"@tequila_travesuras"}/>
-              <RedesCard image={FacebookV} username={"@tequila_travesuras"}/>
-              <RedesCard image={TicktokV} username={"@tequila_travesuras"}/>
+              <p className='findOut'>Find out all the <span>NEWS</span> in <span>OUR SOCIAL NETWORKS</span></p>
+              <RedesCard image={InstagramV} username={"@tequila_travesuras"} color={"#000000"}/>
+              <RedesCard image={FacebookV} username={"@tequila_travesuras"} color={"#000000"}/>
+              <RedesCard image={TicktokV} username={"@tequila_travesuras"} color={"#000000"}/>
             </div>
             <div className="fourthSectionRightDiv">
               <div className="indexImageRow">
@@ -44,6 +71,12 @@ const Index = () => {
         </div>
         <div className='homeFifthSectionDesk'>
           <Infused/>
+          <div className='partnerDiv'>
+            <h2 className='partnerIn'>BE OUR PARTNER <span>in crime for our</span> NEXT TRAVESURA</h2>
+            <RedesCard image={MailW} username={"@TEQUILA_TRAVESURAS"} color={"#FFFFFF"}/>
+            <RedesCard image={IgW} username={"@TEQUILA_TRAVESURAS"} color={"#FFFFFF"}/>
+            <RedesCard image={FacebookW} username={"@TEQUILA_TRAVESURAS"} color={"#FFFFFF"}/>
+          </div>
         </div>
       </div>
     </Layout>
