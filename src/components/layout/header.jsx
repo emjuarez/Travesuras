@@ -9,12 +9,12 @@ const Header = () => {
     <div className='headerMainDivDesk'>
         <div className='headerTag'>
             <div className='leftItems'>
-                <Link>HOME</Link>
+                <Link to="/">HOME</Link>
                 <AnchorLink>ABOUT US</AnchorLink>
             </div>
             <img src={HeaderLogo} className="headerLogo"/>
             <div className='rightItems'>
-                <Link>FLAVORS</Link>
+                <Link to="/flavors">FLAVORS</Link>
                 <AnchorLink>CONTACT</AnchorLink>
             </div>
         </div>

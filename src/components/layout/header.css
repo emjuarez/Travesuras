@@ -20,6 +20,8 @@
 .headerTag a  {
     font-family: "A Bold";
     font-size: 10px;
+    text-decoration: none;
+    color: black;
 }
 .headerTag a:hover  {
     color: #FA3D93;
