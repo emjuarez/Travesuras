@@ -10,12 +10,12 @@ const Header = () => {
         <div className='headerTag'>
             <div className='leftItems'>
                 <Link to="/">HOME</Link>
-                <AnchorLink>ABOUT US</AnchorLink>
+                <AnchorLink to="/#about-us">ABOUT US</AnchorLink>
             </div>
             <img src={HeaderLogo} className="headerLogo"/>
             <div className='rightItems'>
                 <Link to="/flavors">FLAVORS</Link>
-                <AnchorLink>CONTACT</AnchorLink>
+                <AnchorLink to="/#contact">CONTACT</AnchorLink>
             </div>
         </div>
         <img/>

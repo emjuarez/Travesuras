@@ -1,0 +1,75 @@
+.footerMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 3% 5% 2%;
+}
+.thisIs {
+    font-family: "A Condensed";
+    color: white;
+    margin: 0%;
+}
+.thisIs span {
+    font-family: "A Bold";
+    color: #FA3D93;
+}
+.thisIs span1 {
+    font-family: "A Bold";
+    color: #F4FB64;
+}
+.footerRedesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 23%;
+    margin-top: 5%
+}
+.smFooterIcon {
+    width: 25px;
+}
+.footerNavDiv {
+    border: solid white 1px;
+    border-radius: 27px;
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 43px;
+    position: relative;
+}
+.footerNavDiv a {
+    font-family: "A Bold";
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+.logoFooter {
+    position: absolute;
+    top: -45%;
+    width: 17%;
+    z-index: 3;
+}
+.footerBottomDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+.elaborado {
+    font-family: "A Bold";
+    color: white;
+    text-decoration: none;
+}
+.aviso {
+    font-family: "A Condensed";
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}

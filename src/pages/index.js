@@ -69,9 +69,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className='homeFifthSectionDesk'>
+        <div className='homeFifthSectionDesk' id="about-us">
           <Infused/>
-          <div className='partnerDiv'>
+          <div className='partnerDiv' id="contact">
             <h2 className='partnerIn'>BE OUR PARTNER <span>in crime for our</span> NEXT TRAVESURA</h2>
             <RedesCard image={MailW} username={"@TEQUILA_TRAVESURAS"} color={"#FFFFFF"}/>
             <RedesCard image={IgW} username={"@TEQUILA_TRAVESURAS"} color={"#FFFFFF"}/>
