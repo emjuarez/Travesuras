@@ -1,0 +1,14 @@
+.flavorsMainDiv {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    height: 5vw;
+    width: 90%;
+}
+.flavorName {
+    font-family: "A Bold";
+    font-size: 15px;
+}

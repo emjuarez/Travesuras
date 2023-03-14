@@ -5,8 +5,10 @@
     align-items: center ;
 }
 .redesCardMainDiv img {
-
+    width: 14px;
+    margin-right: 5px;
 }
 .redesCardMainDiv p {
-    
+    font-family: "A Condensed";
+    font-size: 12px;
 } 

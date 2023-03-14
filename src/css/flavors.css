@@ -1,0 +1,70 @@
+.flavorsFirstSection {
+    background-image: url(../images/desktop/flavors/flavorsBanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 57%;
+}
+.flavorsSecondSection {
+    padding: 4% 0%;
+}
+.flavorsDuo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.flavorDetails {
+    width: 48%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.front {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    transition:  0.8s;
+
+}
+.front:hover {
+    opacity: 0;
+}
+.back {
+    width: 100%;
+}
+.flavorsTrio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.trioFlavorDetails {
+    width: 31%;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.flavorsThirdSection {
+    background-image: url(../images/desktop/flavors/flavorsThirdSectionBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 13%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wichFlavors {
+    position: absolute;
+    z-index: 8;
+    top: 5%;
+    font-size: 32px;
+    font-family: "A Condensed";
+    color: white;
+}
+.wichFlavors span {
+    font-family: "A Bold";
+}

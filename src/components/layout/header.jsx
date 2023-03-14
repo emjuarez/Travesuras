@@ -2,18 +2,20 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import "./header.css"
+import HeaderLogo from "../../images/desktop/layout/logo-header.png"
 
 const Header = () => {
-  return (
+  return ( 
     <div className='headerMainDivDesk'>
         <div className='headerTag'>
             <div className='leftItems'>
-                <Link></Link>
-                <AnchorLink></AnchorLink>
+                <Link to="/">HOME</Link>
+                <AnchorLink to="/#about-us">ABOUT US</AnchorLink>
             </div>
+            <img src={HeaderLogo} className="headerLogo"/>
             <div className='rightItems'>
-                <Link></Link>
-                <AnchorLink></AnchorLink>
+                <Link to="/flavors">FLAVORS</Link>
+                <AnchorLink to="/#contact">CONTACT</AnchorLink>
             </div>
         </div>
         <img/>

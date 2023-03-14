@@ -1,11 +1,11 @@
 import React from 'react'
 import "./styles.css"
 
-const RedesCard = ({image, username}) => {
+const RedesCard = ({image, username, color}) => {
   return (
     <div className='redesCardMainDiv'>
         <img src={image}/>
-        <p>{username}</p>
+        <p style={{color: color}}>{username}</p>
     </div>
   )
 }
