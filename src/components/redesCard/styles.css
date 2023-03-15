@@ -12,3 +12,30 @@
     font-family: "A Condensed";
     font-size: 12px;
 } 
+@media only screen and (min-width: 1000px){
+    .redesCardMainDiv img {
+        width: 16px;
+        margin-right: 5px;
+    }
+    .redesCardMainDiv p {
+        font-size: 14px;
+    } 
+}
+@media only screen and (min-width: 1300px){
+    .redesCardMainDiv img {
+        width: 23px;
+        margin-right: 5px;
+    }
+    .redesCardMainDiv p {
+        font-size: 19px;
+    } 
+}
+@media only screen and (min-width: 1500px) {
+    .redesCardMainDiv img {
+        width: 30px;
+        margin-right: 5px;
+    }
+    .redesCardMainDiv p {
+        font-size: 23px;
+    } 
+}

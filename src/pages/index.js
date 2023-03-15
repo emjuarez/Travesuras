@@ -15,13 +15,9 @@ import Infused from '../components/infusedSection'
 import MailW from "../images/desktop/index/mail-w.png"
 import IgW from "../images/desktop/index/instagram-w.png"
 import FacebookW from "../images/desktop/index/facbook-w.png"
-import Aregular from "../static/fonts/AvenirNextLTPro-Regular.otf"
-import Acondensed from "../static/fonts/Avenir Next Condensed.ttf.ttf"
 import Flavors from "../components/flavorOptions"
 
 const Index = () => {
-  const regular = Aregular;
-  const Condensed = Acondensed;
 
   return (
     <Layout>
