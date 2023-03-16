@@ -30,7 +30,10 @@ const Index = () => {
               <p className='flavorName' style={{color:"#FECD41"}}>LEMON</p>
               <p className='flavorName' style={{color:"#28C67D", marginLeft:"8%"}}>SPICY MANGO</p>
               <p className='flavorName' style={{color:"#01D9FE", marginLeft:"3%"}}>WATERMELON MINT</p>
-              <p className='flavorName' style={{color:"#C78548"}}>TAMARIND</p>
+              <div className='comminSoonDiv' style={{color:"#C78548"}}>
+                <p className='flavorName'>TAMARIND</p>
+                <p className='commingSoonTamarind'>COMING SOON</p>
+              </div>
             </Flavors>
           </div>
         </div>
@@ -38,8 +41,14 @@ const Index = () => {
           <div className='flavorsCoinatiner2'>
               <Flavors>
                 <p className='flavorName' style={{color:"#00DFDD"}}>BLANCO</p>
-                <p className='flavorName' style={{color:"#409FCF"}}>REPOSADO</p>
-                <p className='flavorName' style={{color:"#ECA95A"}}>AÑEJO</p>
+                <div className='comingsoonDiv' style={{color:"#409FCF"}}>
+                  <p className='flavorName' >REPOSADO</p>
+                  <p className='commingSoon' >COMING SOON</p>
+                </div>
+                <div className='comingsoonDiv' style={{color:"#ECA95A"}}>
+                  <p className='flavorName' >AÑEJO</p>
+                  <p className='commingSoon'>COMING SOON</p>
+                </div>
               </Flavors>
           </div>
         </div>
