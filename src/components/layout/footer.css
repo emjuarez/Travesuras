@@ -34,6 +34,7 @@
     border: solid white 1px;
     border-radius: 27px;
     width: 100%;
+    max-width: 1500px;
     margin-top: 8%;
     display: flex;
     flex-direction: row;
@@ -51,7 +52,8 @@
 .logoFooter {
     position: absolute;
     top: -45%;
-    width: 17%;
+    /* width: 18%; */
+    width: 121px;
     z-index: 3;
 }
 .footerBottomDiv {
@@ -72,4 +74,53 @@
     color: white;
     text-decoration: none;
     font-size: 12px;
+}
+@media only screen and (min-width: 900px){
+    .thisIs {
+        font-size: 27px;
+    }
+    .smFooterIcon {
+        width: 33px;
+    }
+    .footerNavDiv {
+        height: 60px;
+    }
+    .footerNavDiv a {
+        font-size: 15px;
+    }
+    .elaborado {
+        font-size: 18px;
+    }
+    .aviso {
+
+        font-size: 18px;
+    }
+    .logoFooter {
+        width: 145px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .thisIs {
+        font-size: 35px;
+    }
+    .smFooterIcon {
+        width: 40px;
+    }
+    .footerNavDiv {
+        height: 75px;
+        border-radius: 61px;
+    }
+    .footerNavDiv a {
+        font-size: 20px;
+    }
+    .elaborado {
+        font-size: 22px;
+    }
+    .aviso {
+
+        font-size: 22px;
+    }
+        .logoFooter {
+        width: 210px;
+    }
 }

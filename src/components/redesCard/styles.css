@@ -6,9 +6,36 @@
 }
 .redesCardMainDiv img {
     width: 14px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .redesCardMainDiv p {
     font-family: "A Condensed";
     font-size: 12px;
 } 
+@media only screen and (min-width: 1000px){
+    .redesCardMainDiv img {
+        width: 16px;
+        margin-right: 10px;
+    }
+    .redesCardMainDiv p {
+        font-size: 14px;
+    } 
+}
+@media only screen and (min-width: 1300px){
+    .redesCardMainDiv img {
+        width: 23px;
+        margin-right: 12px;
+    }
+    .redesCardMainDiv p {
+        font-size: 19px;
+    } 
+}
+@media only screen and (min-width: 1500px) {
+    .redesCardMainDiv img {
+        width: 30px;
+        margin-right: 15 px;
+    }
+    .redesCardMainDiv p {
+        font-size: 23px;
+    } 
+}

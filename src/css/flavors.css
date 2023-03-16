@@ -68,3 +68,28 @@
 .wichFlavors span {
     font-family: "A Bold";
 }
+@media only screen and (min-width: 900px) {
+    .wichFlavors {
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .wichFlavors {
+        font-size: 51px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .wichFlavors {
+        font-size: 59px;
+    }
+}
+@media only screen and (min-width: 1700px) {
+    .wichFlavors {
+        top: 12%;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .wichFlavors {
+        top: 18%;
+    }
+}

@@ -62,7 +62,7 @@
     font-size: 11px;
 } 
 .colorDivTitle span{
-    font-family: "A Regular";
+    font-family: "A Condensed";
     color: white;
 } 
 .infusedP {
@@ -79,4 +79,34 @@
     justify-content: center;
     align-items: center;
     height: 33vw;
+}
+@media only screen and (min-width: 1000px){
+    .colorDivTitle {
+        font-size: 15px;
+        line-height: 25px;
+    } 
+    .infusedP {
+        font-size: 12px;
+    }
+}
+@media only screen and (Min-width: 1300px) {
+    .colorDivTitle {
+        font-size: 20px;
+        line-height: 33px;
+    } 
+    .infusedP {
+        font-size: 15px;
+    }
+    .colorDivContainer:hover .colorDiv {
+        height: 13vw;
+    }
+}
+@media only screen and (Min-width: 1500px) {
+    .colorDivTitle {
+        font-size: 24px;
+        line-height: 35px;
+    } 
+    .infusedP {
+        font-size: 17px;
+    }
 }
